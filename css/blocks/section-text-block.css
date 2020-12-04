@@ -1,0 +1,142 @@
+#section-text h1 {
+    color: #FF6E00;
+    margin-bottom: 50px;
+}
+
+#section-text {
+    z-index: 50;
+    background-color: #2155b5;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#section-text .bubble-background-top{
+    background-image: url(../../img/backgrounds/bubble_01_blue.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -5%;
+    top: 0;
+    z-index: 5;
+    opacity: 0.75;
+}
+
+#section-text .bubble-background-down{
+    background-image: url(../../img/backgrounds/bubble_02_blue.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 65%;
+    bottom: -5%;
+    z-index: 5;
+    opacity: 0.75;
+}
+
+#section-text::after{
+    display: inline-block;
+    content: '';
+
+    position: absolute;
+    width: 100%;
+    background-image: url(../../img/backgrounds/plate_down_blue_with_plate.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    z-index: 2;
+}
+
+.motivation-block {
+    margin-bottom: 75px;
+}
+
+.motivation-block ul > li {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.motivation-block ul > li::before {
+    content: "✓ ";
+    color: #FF6E00;
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+
+.advantages ul {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.advantages ul > li {
+    padding: 1.3rem 0;
+}
+
+.advantages p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.advantages ul li p{
+    margin: 0;
+}
+
+.advantages ul li::before {
+    content: "✓ ";
+    color: white;
+    font-size: 24px;
+    background: #FF6E00;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 42px;
+    float: left;
+    position: relative;
+    border-radius: 25px;
+    display: block;
+    height: 45px;
+    bottom: 10px;
+    width: 45px;
+
+}
+
+.btn-download-example {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: #FF6E00;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 1rem 2rem;
+}
+
+
+@media (max-width: 780px) {
+
+    #section-text{
+        padding: 2rem 0;
+    }
+
+    #section-text .bubble-background-top{
+        background: none;
+    }
+
+    #section-text .bubble-background-down{
+        background: none;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    #section-text{
+        padding: 3rem 0;
+    }
+
+}

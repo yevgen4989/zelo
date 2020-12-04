@@ -1,0 +1,483 @@
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-BlackItalic.eot');
+    src: url('../fonts/PFBeauSansPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-BlackItalic.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-Black.eot');
+    src: url('../fonts/PFBeauSansPro-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-Black.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-Bold.eot');
+    src: url('../fonts/PFBeauSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-Bold.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-BoldItalic.eot');
+    src: url('../fonts/PFBeauSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-BoldItalic.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro Bbook';
+    src: url('../fonts/PFBeauSansPro-Bbook.eot');
+    src: url('../fonts/PFBeauSansPro-Bbook.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-Bbook.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-Bbook.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro Bbook';
+    src: url('../fonts/PFBeauSansPro-BbookItalic.eot');
+    src: url('../fonts/PFBeauSansPro-BbookItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-BbookItalic.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-BbookItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-Italic.eot');
+    src: url('../fonts/PFBeauSansPro-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-Italic.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-SemiBold.eot');
+    src: url('../fonts/PFBeauSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-SemiBold.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-LightItalic.eot');
+    src: url('../fonts/PFBeauSansPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-LightItalic.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-Thin.eot');
+    src: url('../fonts/PFBeauSansPro-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-Thin.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-Regular.eot');
+    src: url('../fonts/PFBeauSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-Regular.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-Light.eot');
+    src: url('../fonts/PFBeauSansPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-Light.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-SemiBoldItalic.eot');
+    src: url('../fonts/PFBeauSansPro-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-SemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-ThinItalic.eot');
+    src: url('../fonts/PFBeauSansPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-ThinItalic.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro XThin';
+    src: url('../fonts/PFBeauSansPro-XThinItalic.eot');
+    src: url('../fonts/PFBeauSansPro-XThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-XThinItalic.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-XThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF BeauSans Pro XThin';
+    src: url('../fonts/PFBeauSansPro-XThin.eot');
+    src: url('../fonts/PFBeauSansPro-XThin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PFBeauSansPro-XThin.woff2') format('woff2'),
+    url('../fonts/PFBeauSansPro-XThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'PF BeauSans Pro';
+
+}
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+
+a {
+    transition: 0.3s;
+}
+
+a:active,
+a:visited,
+a:focus{
+    outline: none;
+    box-shadow: none!important;
+}
+
+h1 {
+
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: #aeb9bb;
+}
+
+section {
+    width: 100%;
+    height: auto;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+
+#info-number {
+    font-size: 22px;
+    text-align: right;
+    font-weight: 700;
+}
+
+#info-number a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#info-number a:hover {
+    color: #f0f0f0;
+}
+
+#info-number a:hover .span-red {
+    color: #b6202f;
+}
+
+#info-mail {
+    text-align: right;
+    font-size: 15px;
+    padding-right: 83px;
+}
+
+#info-mail a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#info-mail a:hover{
+    text-decoration: underline;
+}
+
+#info-text {
+    padding-left: 41px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.span-red {
+    color: #C20000;
+}
+
+.span-blue {
+    color: #2155b5;
+}
+
+.span-white {
+    color: white;
+}
+
+.span-bold {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.span-orange {
+    color: #FF6E00;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.span-orange-dark {
+    color: #c25400;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-head {
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.inputfile-1 + label {
+    width: 100%;
+    outline: none;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 1.3rem 1rem;
+    font-size: 15px;
+    border-radius: 30px;
+    color: white;
+}
+
+.inputfile-2 + label {
+    width: 100%;
+    outline: none;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 1.3rem 1rem;
+    font-size: 15px;
+    border-radius: 30px;
+    color: white;
+}
+
+.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    border: none;
+    outline: none;
+}
+
+.js .inputfile:hover,
+.js .inputfile:focus,
+.js .inputfile:active{
+    border: none;
+    outline: none;
+}
+
+.inputfile + label {
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: none;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.btn-file-reset{
+    display: none;
+}
+
+.card .card-head .card-img{
+    width: 100%!important;
+}
+
+.breadcrumb-item + .active {
+    color: #9CB1B6;
+    text-decoration: none;
+}
+
+.breadcrumb a {
+    color: #C20000;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+
+}
+
+.breadcrumb {
+    background: none;
+    padding-left: 0;
+}
+
+.section-p-grey{
+    color: #9CB1B6;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+#site-upper {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    z-index: 99999;
+    background-color: #c20000;
+    cursor: pointer;
+    display: none;
+    font-size: 2rem;
+    color: white;
+}
+
+.plyr__poster{
+    background-position: center;
+    background-size: cover;
+}
+
+.plyr__control--overlaid {
+    background: none;
+}
+
+.plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
+    background: none;
+}
+
+.plyr{
+    height: 500px;
+}
+
+.slick-slide{
+    padding: 0 1rem;
+}
+
+.slick-slide:focus,
+.slick-slide:hover,
+.slick-slide:active,
+.slick-slide:visited{
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

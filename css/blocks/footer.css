@@ -1,0 +1,151 @@
+footer {
+    background-image: url("../../img/plate_4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 60px;
+}
+
+.footer-p {
+    padding-top: 33px;
+    padding-bottom: 50px;
+}
+
+.footer-p-service {
+    color: #9CB1B6;
+    font-size: 15px;
+    font-style: italic;
+}
+
+footer h5 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+footer ul {
+    font-size: 16px;
+    padding-top: 33px;
+    color: white;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.privacy-a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.social {
+    position: relative;
+    top: 95%;
+    text-align: center;
+}
+
+.social a {
+    padding: 0 10px;
+}
+
+.social i {
+    font-size: 20px;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active{
+    color: #ebebeb;
+}
+
+footer .callback-btn i{
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+@media (min-width: 767px) {
+    .footer-p.copyright{
+        display: none;
+    }
+    footer .block-footer-menu{
+        margin-top: 0!important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    footer{
+        padding-top: 1rem;
+    }
+    footer ul{
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .social {
+        position: relative;
+        top: 0;
+        padding-top: 1rem;
+    }
+
+    .footer-p{
+        display: none;
+    }
+
+    .footer-p-service{
+        display: none;
+    }
+
+    .footer-p.copyright{
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: .5rem;
+        font-size: 12px;
+    }
+
+    .privacy-block{
+        padding: 1rem 0;
+    }
+
+    .menu-footer-services{
+        margin: 0 auto;
+    }
+
+    .title-footer-menu-services{
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-p.copyright{
+        display: none;
+    }
+
+    .social a{
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .menu-footer-services ul{
+        margin-bottom: 0;
+    }
+
+    .menu-footer-services.part-2 ul{
+        padding-top: 0;
+    }
+}
+

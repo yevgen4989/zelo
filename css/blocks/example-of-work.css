@@ -1,0 +1,119 @@
+#examples-of-work h1 {
+    color: #FF6E00;
+}
+
+.examples-of-work-p-grey {
+    color: #9CB1B6;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+#examples-of-work {
+    z-index: 50;
+    display: inline-block;
+    background-size: cover;
+    position: relative;
+    padding: 4rem 0;
+    height: auto;
+    width: 100%;
+    background: url(../../img/backgrounds/bubble_01.png) no-repeat left 0,
+    url(../../img/backgrounds/bubble_02.png) no-repeat right 100%;
+
+}
+
+
+#examples-of-work:before {
+    content: url(../../img/backgrounds/graphic_element_01_red.png);
+    z-index: -1;
+    position: absolute;
+    top: -15%;
+    left: 75%;
+    height: 213px;
+    width: 213px;
+}
+
+#examples-of-work #examples-of-work-ul-checked ul.first{
+    margin-top: -23px;
+}
+
+#examples-of-work #examples-of-work-ul-checked ul.first:before{
+    content: url(../../img/backgrounds/graphic_element_02.png);
+    z-index: -1;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 170px;
+    right: 60%;
+}
+
+#examples-of-work #examples-of-work-ul-checked ul.first:after{
+    content: url(../../img/backgrounds/graphic_element_04_red.png);
+    z-index: -1;
+    position: absolute;
+    top: 70%;
+    right: 80%;
+    height: 199px;
+    width: 232px;
+}
+
+#examples-of-work #examples-of-work-ul-checked ul.last:before{
+    content: url(../../img/backgrounds/graphic_element_03.png);
+    z-index: -1;
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    height: 141px;
+    width: 141px;
+}
+
+#examples-of-work-ul-checked {
+    margin-top: 55px;
+    margin-bottom: 150px;
+}
+
+#examples-of-work-ul-checked li {
+    font-size: 22px;
+}
+
+#examples-of-work-ul-checked i {
+    margin-right: 10px;
+    color: #FF6E00;
+}
+
+
+
+
+@media (max-width: 780px) {
+
+    .examples-of-work-p-grey{
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    #examples-of-work:before {
+        content: none;
+        background: none;
+    }
+
+
+    #examples-of-work #examples-of-work-ul-checked ul.first:before{
+        content: none;
+        background: none;
+    }
+
+    #examples-of-work #examples-of-work-ul-checked ul.first:after{
+        content: none;
+        background: none;
+    }
+
+    #examples-of-work #examples-of-work-ul-checked ul.last:before{
+        content: none;
+        background: none;
+    }
+}

@@ -1,0 +1,128 @@
+#video-reviews::before{
+    content: '';
+    z-index: -2;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: left 70%;
+    background-image: url(../../img/backgrounds/bubble_01.png);
+}
+
+
+#video-reviews::after {
+    content: '';
+    z-index: -2;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: right 80%;
+    background-image: url(../../img/backgrounds/bubble_02.png);
+
+}
+
+
+#video-reviews #video-body:before{
+    content: url(../../img/backgrounds/graphic_element_04.png);
+    z-index: -1;
+    width: 199px;
+    height: 232px;
+    position: absolute;
+    left: -5%;
+    top: 20%;
+}
+
+
+#video-reviews #arrows-video i {
+    text-align: center;
+    font-size: 50px;
+    color: #C20000;
+    padding: 0 1rem;
+}
+
+#video-reviews #arrows-video .arrow-left a, #video-reviews #arrows-video .arrow-right a {
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px #C20000 solid;
+}
+
+#video-reviews #arrows-video .arrow-left i{
+    position: relative;
+    right: 2.5px;
+}
+
+#video-reviews #arrows-video .arrow-right i{
+    position: relative;
+    left: 1.5px;
+}
+
+
+#video-reviews #arrows-video .arrow-left a:hover, #video-reviews #arrows-video .arrow-right a:hover {
+    background-color: #C20000;
+}
+
+#video-reviews #arrows-video .arrow-left a:hover i, #video-reviews #arrows-video .arrow-right a:hover i{
+    font-size: 50px;
+    color: white;
+
+}
+
+#video-reviews h1{
+    color: #C20000;
+}
+#video-reviews h3{
+    color: #333333 ;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#video-reviews .video-item{
+    padding: 0 1rem;
+}
+
+#video-reviews .video-item .p-normal-grey{
+    color: #9cb1b6;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+@media (max-width: 780px) {
+
+    #video-reviews #video-head{
+        padding: 1rem 0;
+    }
+
+    #arrows-video{
+        display: none;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    #arrows-video{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    #video-reviews #video-body:before{
+        content: none;
+        background: none;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+
+}

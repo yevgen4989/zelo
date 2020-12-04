@@ -1,0 +1,167 @@
+#vacancies hr{
+    color: #aeb9bb;
+}
+
+#vacancies h1{
+    color: #FF6E00;
+}
+#vacancies h2{
+    color: #333333;
+    font-size: 30px;
+    font-weight: bold;
+}
+#vacancies h3{
+    color: #333333 ;
+    font-size: 20px;
+    font-weight: bold;
+}
+#vacancies .p-normal-grey{
+    color: #9CB1B6;
+    font-size: 15px;
+    font-style: normal;
+}
+#vacancies .p-italic-grey{
+    color: #9CB1B6;
+    font-size: 15px;
+    font-style: italic;
+}
+#vacancies .p-black{
+    color: #333333;
+    font-size: 15px;
+    font-style: normal;
+}
+#vacancies .p-black-italic{
+    color: #333333;
+    font-size: 15px;
+    font-style: normal;
+}
+#vacancies b{
+    color: #333333;
+    font-weight: bold;
+}
+#vacancies ul{
+    line-height: 2rem;
+}
+
+#vacancies .city{
+    text-transform: uppercase;
+    color: #C20000;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+#vacancies .vacancies-manager img{
+    border-radius: 30px;
+}
+
+#vacancies .get-call {
+    padding: 1.3rem 3rem;
+    color: white;
+    font-weight: 700;
+    background-color: #C20000;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#vacancies .get-call:hover,
+#vacancies .get-call:focus,
+#vacancies .get-call:active{
+    color: white;
+    background-color: #ae0000;
+}
+
+
+#vacancies::before{
+    content: '';
+    z-index: -2;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: url(../../img/backgrounds/bubble_01.png) no-repeat left 0,
+    url(../../img/backgrounds/bubble_02.png) no-repeat right 35vw;
+}
+
+
+#vacancies::after {
+    content: '';
+    z-index: -2;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: left 55%, right 75%;
+    background-image: url(../../img/backgrounds/bubble_01.png), url(../../img/backgrounds/bubble_02.png);
+
+}
+
+#vacancies #vacancii-head:after{
+    content: url(../../img/backgrounds/graphic_element_01.png);
+    z-index: -1;
+    width: 213px;
+    height: 213px;
+    position: absolute;
+    right: 5%;
+    top: 17%;
+}
+
+#vacancies #vacancii-head:before{
+    content: url(../../img/backgrounds/graphic_element_02.png);
+    z-index: -1;
+    width: 140px;
+    height: 23px;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+
+#vacancies #vacancii-body:after{
+    content: url(../../img/backgrounds/graphic_element_03.png);
+    z-index: -1;
+    width: 141px;
+    height: 141px;
+    position: absolute;
+    left: 80%;
+    bottom: 45%;
+}
+
+#vacancies #vacancii-body:before{
+    content: url(../../img/backgrounds/graphic_element_04.png);
+    z-index: -1;
+    width: 199px;
+    height: 232px;
+    position: absolute;
+    left: 5%;
+    bottom: 35%;
+}
+
+
+@media (max-width: 1200px) {
+    #vacancies #vacancii-head:after{
+        content: none;
+        background: none;
+    }
+
+    #vacancies #vacancii-head:before{
+        content: none;
+        background: none;
+    }
+
+    #vacancies #vacancii-body:after{
+        content: none;
+        background: none;
+    }
+
+    #vacancies #vacancii-body:before{
+        content: none;
+        background: none;
+    }
+}

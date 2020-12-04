@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Zelo</title>
+
+    <link rel="stylesheet" href="css/libs/all.min.css">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="node_modules/plyr/dist/plyr.css">
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.min.css">
+
+    <link rel="stylesheet" href="css/blocks/header.min.css">
+
+    <link rel="stylesheet" href="css/blocks/vacansii.min.css">
+
+    <link rel="stylesheet" href="css/blocks/section-map-block.min.css">
+    <link rel="stylesheet" href="css/blocks/footer.min.css">
+
+    <!--header-->
+    <style id="header_style"></style>
+    <!--header-->
+
+</head>
+<body>
+
+<!--blue-->
+<img src="img/backgrounds/plate_up_blue.png" alt="plate_blue_up" id="plate-blue-up" style="width: 100%;display: none;">
+<img src="img/backgrounds/plate_down_blue.png" alt="plate_blue_down" id="plate-blue-down" style="width: 100%;display: none;">
+
+<img src="img/backgrounds/plate_down_blue_with_plate.png" alt="plate_blue_down_with_plate" id="plate-blue-down-with-plate" style="width: 100%; display: none">
+
+<img src="img/backgrounds/bubble_01_blue.png" alt="bubble-blue-up" id="bubble-blue-up" style="width: 35%;display: none;">
+<img src="img/backgrounds/bubble_02_blue.png" alt="bubble-blue-down" id="bubble-blue-down" style="width: 35%;display: none;">
+
+<img src="img/backgrounds/bubble_01_orange.png" alt="bubble-orange-up" id="bubble-orange-up" style="width: 35%;display: none;">
+<img src="img/backgrounds/bubble_02_orange.png" alt="bubble-orange-down" id="bubble-orange-down" style="width: 35%;display: none;">
+<!--blue-->
+
+<!--orange-->
+<img src="img/backgrounds/orange_down.png" alt="orange-down" id="orange-down" style="width: 100%; display:none;">
+<img src="img/backgrounds/orange_down_text_right.png" alt="orange-down-text-right" id="orange-down-text-right" style="width: 100%; display:none;">
+<img src="img/backgrounds/orange_down_text_left.png" alt="orange-down-text-left" id="orange-down-text-left" style="width: 100%; display:none;">
+<img src="img/backgrounds/orange_down_with_plate.png" alt="orange-down-with-plate" id="orange-down-with-plate" style="width: 100%; display:none;">
+
+<img src="img/backgrounds/orange_up.png" alt="orange-up" id="orange-up" style="width: 100%; display:none;">
+<!--orange-->
+
+<!--Header START-->
+<header>
+    <div class="container pt-3 px-0">
+        <div class="d-md-flex d-sm-inline-flex justify-content-between flex-wrap" id="header-info ">
+            <div class="d-sm-flex d-xl-flex align-items-center logo-block">
+                <div>
+                    <a href="#"><img src="img/logo_v2.png" alt="logo" width="150" height="auto"></a>
+                </div>
+                <div id="info-text">
+                    <p>Интернет-агенство<br>комплексного продвижения</p>
+                </div>
+            </div>
+            <div class="d-lg-flex align-items-center contact-block">
+                <div id="info-mail">
+                    <a href="mailto:info@zelo.agency.ru">
+                        <p class="text-uppercase"><span class="span-red">info</span>@zelo.agency.ru</p>
+                    </a>
+                </div>
+                <div id="info-number">
+                    <a href="tel:+74991220488">
+                        <p><span class="span-red ">+7 499</span> 112 04 88</p>
+                    </a>
+                </div>
+            </div>
+            <nav class="d-sm-flex d-md-none d-lg-none navbar navbar-expand-lg navbar-dark w-100">
+                <div class="container-fluid">
+                    <button id="burger-bars" class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#burger-menu" aria-controls="burger-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="burger-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">О компании</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Услуги</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Кейсы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Отзывы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Акции</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Новости</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Статьи</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Вакансии</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="d-flex justify-content-center flex-wrap" id="header-menu">
+            <div class="menu__item"><a href="#">О компании</a></div>
+            <div class="menu__item"><a href="#">Услуги</a></div>
+            <div class="menu__item"><a href="#">Кейсы</a></div>
+            <div class="menu__item"><a href="#">Отзывы</a></div>
+            <div class="menu__item"><a href="#">Акции</a></div>
+            <div class="menu__item"><a href="#">Новости</a></div>
+            <div class="menu__item"><a href="#">Статьи</a></div>
+            <div class="menu__item"><a href="#">Вакансии</a></div>
+            <div class="menu__item"><a href="#">Контакты</a></div>
+        </div>
+    </div>
+</header>
+<!--Header END-->
+
+<div class="container">
+    <nav aria-label="breadcrumb" class="br-index">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Главная</a></li>
+            <li class="breadcrumb-item active">Контакты</li>
+        </ol>
+    </nav>
+</div>
+
+<section id="vacancies">
+    <div class="container">
+        <div class="row justify-content-between mt-4 mb-5" id="vacancii-head">
+            <div class="col-xl-6 col-lg-12 col-md-12">
+                <h1><span class="span-red">Вакансии</span> компании</h1>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12">
+                <p class="section-p-grey">Результат нашей работы уже будет виден через 2 недели работы над проектом.
+                    Максимальный эффект достигается через 3 месяца продвижения.</p>
+            </div>
+        </div>
+        <div class="row justify-content-between" id="vacancii-body">
+            <div class="col-xl-9">
+                <div class="vacancies-item mb-3">
+                    <h2>Студентам</h2>
+                    <p class="p-black-italic">Взаимодействие с ведущими Высшими Учебными Заведениями страны – одна из основ
+                        поиска молодых специалистов для нашей компании.</p>
+                    <p class="p-black">
+                        <b>Студентам ВУЗов с профильными направлениями подготовки мы можем предложить:</b>
+                        <ul>
+                            <li>Прохождение практик в нашей компании</li>
+                            <li>Прохождение стажировок в нашей компании</li>
+                            <li>Подработку по гибкому графику с прохождением обучения на базе Корпоративного университета</li>
+                            <li>EcoStandard Group (ЭКУ) по следующим направлениям: специальная оценка условий труда, охрана труда</li>
+                            <li>экологический мониторинг</li>
+                        </ul>
+                    </p>
+                    <p class="p-black mb-4 mt-4">Зеркало постоянно. При погружении в жидкий кислород древняя платформа с сильно разрушенными складчатыми образованиями вызывает широколиственный лес независимо от расстояния до горизонта событий. Сингулярность, как можно показать с помощью не совсем тривиальных вычислений, параллельна. Органический мир, по данным астрономических наблюдений, вторично радиоактивен.</p>
+                    <p class="p-normal-grey">Кристалл, по определению, иллюстрирует традиционный взрыв. Музей под открытым небом, в первом
+                        приближении, теоретически возможен. Возмущение плотности непрерывно. На улицах и пустырях мальчики
+                        запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками
+                        в ханэ, при этом силовое поле отражает фонон.</p>
+                    <a href="#" class="btn get-call mt-3">Отклик на вакансию</a>
+                    <hr class="mb-5 mt-5">
+                </div>
+                <div class="vacancies-item mb-3">
+                    <h2>Выпускникам</h2>
+                    <p class="p-italic-grey">Мы заинтересованы в привлечении целеустремленных, энергичных выпускников, мотивированных на
+                        развитие и построение карьеры в сфере экологии и охраны труда.</p>
+                    <p class="p-black">Выпускники ВУЗов, в том числе те, кто хорошо зарекомендовал себя во время прохождения практики в EcoStandard, могут быть рассмотрены в качестве кандидатов на стартовые позиции в нашей компании.</p>
+                    <p class="p-black">
+                        <b>Если вы:</b>
+                    <ul>
+                        <li>имеете хорошие профессиональные знания,</li>
+                        <li>амбициозны</li>
+                        <li>хотите работать в команде профессионалов, достигать высоких результатов</li>
+                        <li>EcoStandard Group (ЭКУ) по следующим направлениям: специальная оценка условий труда, охрана труда</li>
+                        <li>видите свою дальнейшею карьеру в области экологии и охраны труда</li>
+                        EcoStandard готов рассмотреть вашу кандидатуру на имеющиеся стартовые позиции!
+                    </ul>
+                    </p>
+                    <a href="#" class="btn get-call mt-3">Отклик на вакансию</a>
+                    <hr class="mb-5 mt-5">
+                </div>
+                <div class="vacancies-item mb-3">
+                    <h2>Специалистам и профессионалам</h2>
+                    <p class="p-italic-grey">В EcoStandard работают лучшие эксперты в области экологического консалтинга и охраны труда, мы активно развиваемся и нацелены на привлечение в нашу команду высокопрофессиональных, талантливых людей, разделяющих наши корпоративные ценности:</p>
+                    <p class="p-black">
+                        <b>При подборе профессионалов на вакантные позиции, включая позиции специалистов экспертного уровня, в компании EcoStandard учитываются:</b>
+                    <ul>
+                        <li>уровень профессиональной подготовки кандидатов</li>
+                        <li>опыт работы</li>
+                        <li>образование</li>
+                        <li>EcoStandard Group (ЭКУ) по следующим направлениям: специальная оценка условий труда, охрана труда</li>
+                        <li>видите свою дальнейшею карьеру в области экологии и охраны труда</li>
+                    </ul>
+                    а также рассматриваются их личностные качества, необходимые для эффективного выполнения поставленных задач
+                    </p>
+                    <a href="#" class="btn get-call mt-3">Отклик на вакансию</a>
+                    <hr class="mb-5 mt-5">
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <h3 class="mb-2">HR менеджер</h3>
+                <p class="p-italic-grey mb-4">Свои резюме, а так же любые
+                    вопросы, можно направить
+                    на электронную почту отдела
+                    HR по подбору персонала
+                    EcoStandard group:</p>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-12 col-xl-12">
+                        <div class="vacancies-manager mb-3">
+                            <img src="img/ava_1.png" alt="manager" width="auto" height="100%" class="d-block mb-4">
+                            <p class="city">Москва</p>
+                            <h3> Калабина Елизавета</h3>
+
+
+
+
+                            <p class="p-black">Телефон: +7 (495) 185-96-62
+                                <br>E-mail: <a href="mailto:hr@ecostandard.ru">hr@ecostandard.ru</a></p>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12 col-xl-12">
+                        <div class="vacancies-manager mb-3">
+                            <img src="img/ava_2.png" alt="manager" width="auto" height="100%" class="d-block mb-4">
+                            <p class="city">Москва</p>
+                            <h3> Калабина Елизавета</h3>
+
+
+
+
+                            <p class="p-black">Телефон: +7 (495) 185-96-62
+                                <br>E-mail: <a href="mailto:hr@ecostandard.ru">hr@ecostandard.ru</a></p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Section Map START-->
+<section id="section-map">
+    <div class="container">
+        <div class="row justify-content-between" id="map-body">
+
+            <div class="col-10 col-sm-10 col-md-5 col-lg-4 col-xl-3 box-address">
+                <h2>Контакты</h2>
+                <p class="map-address">г. Москва ул. Горбунова, 2, стр. 3
+                    БЦ "Гранд Сетунь Плаза" оф. A216
+                </p>
+                <a href="tel:+7 499 112 04 88" class="map-tel"><span class="span-red">+7 499</span> 112 04 88</a>
+                <a href="mailto:info@zelo.agency.ru" class="map-mail">info@zelo.agency.ru</a>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="map-links-icon"><i class="fab fa-viber"></i></a></li>
+                    <li><a href="#" class="map-links-icon"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Section Map END-->
+
+<footer class="sticky-bottom">
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-md-left text-sm-center">
+                <img src="img/logo_v2.png" alt="logo" width="150">
+                <p class="footer-p">© 2020 Интернет-агенство комплексного продвижения</p>
+
+            </div>
+            <div class="col-12 col-md-5 col-lg-5 col-xl-6 mt-sm-5 block-footer-menu">
+                <h5 class="text-uppercase title-footer-menu-services">Услуги компании</h5>
+
+                <div class="row">
+                    <div class="col-8 col-md-auto col-lg-auto menu-footer-services part-1">
+                        <ul>
+                            <li>
+                                <a href="#">Поисковое продвижение сайтов(SEO)</a>
+                            </li>
+                            <li>
+                                <a href="#">Контекстная реклама</a>
+                            </li>
+                            <li>
+                                <a href="#">Реклама в социальных сетях(SMM)</a>
+                            </li>
+                            <li>
+                                <a href="#">Управление репутацией(SERM)</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-8 col-md-auto col-lg-auto menu-footer-services part-2">
+                        <ul class="mb-sm-5">
+                            <li>
+                                <a href="#!">Консалтиг</a>
+                            </li>
+                            <li>
+                                <a href="#!">Разработка и создание сайтов</a>
+                            </li>
+                            <li>
+                                <a href="#!">Доработка сайтов</a>
+                            </li>
+                            <li>
+                                <a href="#!">Брендинг</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 col-xl-2 text-md-left text-sm-center">
+                <a class="callback-btn" href="#"><i class="far fa-phone-alt text-white"></i> Заказать звонок</a>
+                <div class="social">
+                    <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-vk"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-1 pb-2">
+            <div class="col-12 col-md-3 col-lg-3 col-xl-3 text-md-left text-sm-center privacy-block">
+                <a href="" class="privacy-a">Правила использования сайта</a><br>
+                <a href="" class="privacy-a">Защита персональных данных</a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                <p class="footer-p-service">Чтобы заказать в Zelo услуги по продвижению сайта, достаточно оставить
+                    заявку.</p>
+            </div>
+        </div>
+
+        <p class="footer-p copyright">© 2020 Интернет-агенство комплексного продвижения</p>
+    </div>
+</footer>
+
+<a href="javascript:void(0)" id="site-upper" class="btn">
+    <i class="fas fa-chevron-up"></i>
+</a>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script src="node_modules/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+<script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+<script src="node_modules/jquery-countto/jquery.countTo.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/plyr/dist/plyr.polyfilled.min.js"></script>
+
+<script src="js/main.min.js"></script>
+
+</body>
+</html>

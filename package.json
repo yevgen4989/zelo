@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@popperjs/core": "^2.5.4",
+    "bootstrap": "^5.0.0-alpha3",
+    "jquery": "^3.5.1",
+    "jquery-countto": "^1.2.0",
+    "jquery-mask-plugin": "^1.14.16",
+    "owl.carousel": "^2.3.4",
+    "plyr": "^3.6.3",
+    "slick-carousel": "^1.8.1"
+  }
+}

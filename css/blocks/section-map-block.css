@@ -1,0 +1,90 @@
+#section-map {
+    background-image: url("../../img/backgrounds/map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+
+#section-map a {
+    text-decoration: none;
+
+}
+
+#section-map ul {
+
+    margin-top: 55px;
+}
+
+#section-map ul li {
+    display: inline-block;
+
+}
+
+.map-links-icon {
+    display: unset;
+}
+
+#section-map i {
+    font-size: 34px;
+    color: #C20000;
+    margin-right: 20px;
+    position: relative;
+
+}
+
+#map-body .box-address {
+    z-index: 100;
+    margin: 10rem 0;
+    background: white;
+    padding: 50px 50px 25px;
+    color: #2155B5;
+    text-align: left;
+}
+
+#map-body .box-address h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.map-address {
+    font-size: 15px;
+}
+
+.map-tel {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.map-mail {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+@media (max-width: 767px) {
+    #map-body .box-address{
+        margin: 10rem auto!important;
+        text-align: center!important;
+    }
+
+    #map-body .box-address .map-mail{
+        display: block;
+        width: 100%;
+    }
+
+    #map-body .box-address .map-tel{
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
