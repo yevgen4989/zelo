@@ -696,29 +696,23 @@ $('#cases-page #cases-page-head #arrows-cases .arrow-right a').click(function ()
 
 $('.ads .counter-js').countTo();
 
-$(function() {
-    $.fn.scrollToTop = function() {
-        $(this).hide().removeAttr("href");
-        if ($(window).scrollTop() >= "250"){
-            $(this).fadeIn("slow")
-        }
-        var scrollDiv = $(this);
-        $(window).scroll(function() {
-            if ($(window).scrollTop() <= "250") {
-                $(scrollDiv).fadeOut("slow");
-            }
-            else {
-                $(scrollDiv).fadeIn("slow")
-            }
-        });
-        $(this).click(function() {
-            $("html, body").animate({scrollTop: 0}, "slow")
-        })
-    }
-});
+$(function (){
+    $("#site-upper").hide();
 
-$(function() {
-    $("#site-upper").scrollToTop();
+    $(window).scroll(function (){
+        if ($(this).scrollTop() > 500){
+            $("#site-upper").fadeIn();
+        } else{
+            $("#site-upper").fadeOut();
+        }
+    });
+
+    $("#site-upper").click(function (){
+        $("body,html").animate({
+            scrollTop:0
+        }, 0);
+        return false;
+    });
 });
 
 $( document ).ready(function() {
