@@ -1,6 +1,13 @@
-#section-text h1 {
+#section-text h1,
+#section-text h2,
+#section-text h3,
+#section-text h4
+{
     color: #FF6E00;
     margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #section-text {
@@ -19,7 +26,7 @@
     position: absolute;
     left: -5%;
     top: 0;
-    z-index: 5;
+    z-index: -1;
     opacity: 0.75;
 }
 
@@ -29,8 +36,8 @@
     background-size: contain;
     position: absolute;
     left: 65%;
-    bottom: -5%;
-    z-index: 5;
+    bottom: 0;
+    z-index: -1;
     opacity: 0.75;
 }
 
@@ -46,6 +53,127 @@
     background-position: center;
     z-index: 2;
 }
+
+#section-text p,
+#section-text .body p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 35px;
+    font-weight: 200;
+}
+
+#section-text .body ul,
+#section-text ul {
+    margin-bottom: 60px;
+}
+
+#section-text .body ul li,
+#section-text ul li {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 35px;
+}
+
+#section-text ul li::before,
+#section-text .body ul li::before {
+    content: "✓";
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    margin-right: 10px;
+
+}
+
+#section-text .body{
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+#section-text .body .image-box img{
+    margin-right: 40px;
+    margin-bottom: 35px;
+}
+
+#section-text .body .image-box{
+    margin-bottom: 25px;
+}
+
+#section-text blockquote,
+#section-text .body blockquote{
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+#section-text .accordion .card{
+    background: none;
+    border: none;
+}
+
+#section-text .accordion .card .card-header {
+    background: none;
+    border: none;
+    padding: 12px 0;
+}
+
+#section-text .accordion .card .card-header a {
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#section-text .accordion .card .card-body{
+    padding: 28px 0 40px;
+
+    color: white;
+    font-size: 16px;
+}
+
+#section-text .accordion .card .card-body p{
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+#section-text .accordion .card .card-body .col{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+#section-text .accordion .card .card-body .col .number-big{
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff6e00;
+}
+
+#section-text .accordion .card .card-body .col .number-big span{
+    font-size: 36px;
+}
+
+#section-text .accordion .card .card-header a .float-number {
+    font-size: 18px;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    top: 0;
+    margin-right: 1rem;
+
+    color: white;
+    border: 3px #FF6E00 solid;
+    background-color: #FF6E00;
+    transition: 0.3s all;
+}
+
+#section-text .accordion .card .card-header a.collapsed .float-number{
+    background: none;
+    border: 3px #FF6E00 solid;
+}
+
+
 
 .motivation-block {
     margin-bottom: 75px;

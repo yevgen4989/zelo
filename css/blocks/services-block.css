@@ -44,6 +44,15 @@
 
 }
 
+#section-services.no-bg{
+    padding-bottom: 10rem;
+}
+
+#section-services.no-bg{
+    background: none!important;
+}
+
+
 #section-services{
     margin-top: 3rem;
     background-image: url(../../img/backgrounds/women_with_pc.png);
@@ -80,6 +89,17 @@
     right: 0;
 }
 
+#section-services.no-bg .services:after{
+    bottom: 75vh;
+    top: auto;
+}
+
+#section-services #services-blocks-no-slider .service-item{
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .service-item .card{
     border: none;
     min-height: 330px;
@@ -97,7 +117,7 @@
 
 .service-item img {
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 20px;
 }
 
 .service-item h3 {
@@ -106,6 +126,7 @@
     font-size: 20px;
     font-weight: normal;
     min-height: 50px;
+    margin-bottom: 35px;
 }
 
 .service-item p {
@@ -113,7 +134,7 @@
     color: #9CB1B6;
     font-size: 15px;
     font-style: italic;
-    margin-bottom: 1em;
+    margin-bottom: 30px;
 }
 
 .service-item a {

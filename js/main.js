@@ -221,6 +221,129 @@ $('#contextual #arrows-contextual .arrow-right a').click(function () {
 
 /* Contextual Slider */
 
+/* Contextual Slider */
+
+// $('#contextual-body-dots').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+//
+//
+// });
+
+$('#contextual-body-dots').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    asNavFor: '#contextual-body-with-dots',
+    arrows: false,
+    dots: false,
+    focusOnSelect: true,
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                infinite: false,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        }
+    ]
+});
+
+
+
+$('#contextual-body-with-dots').slick({
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    asNavFor: '#contextual-body-dots',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: false,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
+});
+
+$('#contextual.slider-with-dots #arrows-contextual .arrow-left a').click(function () {
+    $('#contextual-body-with-dots').slick('slickPrev');
+});
+
+$('#contextual.slider-with-dots #arrows-contextual .arrow-right a').click(function () {
+    $('#contextual-body-with-dots').slick('slickNext');
+});
+
+/* Contextual Slider */
+
+
+
 /* Tariff Slider */
 
 $('#tariff-body').slick({

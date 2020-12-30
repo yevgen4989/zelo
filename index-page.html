@@ -58,25 +58,25 @@
 <body>
 
 <!--blue-->
-<img src="img/backgrounds/plate_up_blue.png" alt="plate_blue_up" id="plate-blue-up" style="width: 100%;display: none;">
-<img src="img/backgrounds/plate_down_blue.png" alt="plate_blue_down" id="plate-blue-down" style="width: 100%;display: none;">
+<img draggable="false" src="img/backgrounds/plate_up_blue.png" alt="plate_blue_up" id="plate-blue-up" style="width: 100%;display: none;">
+<img draggable="false" src="img/backgrounds/plate_down_blue.png" alt="plate_blue_down" id="plate-blue-down" style="width: 100%;display: none;">
 
-<img src="img/backgrounds/plate_down_blue_with_plate.png" alt="plate_blue_down_with_plate" id="plate-blue-down-with-plate" style="width: 100%; display: none">
+<img draggable="false" src="img/backgrounds/plate_down_blue_with_plate.png" alt="plate_blue_down_with_plate" id="plate-blue-down-with-plate" style="width: 100%; display: none">
 
-<img src="img/backgrounds/bubble_01_blue.png" alt="bubble-blue-up" id="bubble-blue-up" style="width: 35%;display: none;">
-<img src="img/backgrounds/bubble_02_blue.png" alt="bubble-blue-down" id="bubble-blue-down" style="width: 35%;display: none;">
+<img draggable="false" src="img/backgrounds/bubble_01_blue.png" alt="bubble-blue-up" id="bubble-blue-up" style="width: 35%;display: none;">
+<img draggable="false" src="img/backgrounds/bubble_02_blue.png" alt="bubble-blue-down" id="bubble-blue-down" style="width: 35%;display: none;">
 
-<img src="img/backgrounds/bubble_01_orange.png" alt="bubble-orange-up" id="bubble-orange-up" style="width: 35%;display: none;">
-<img src="img/backgrounds/bubble_02_orange.png" alt="bubble-orange-down" id="bubble-orange-down" style="width: 35%;display: none;">
+<img draggable="false" src="img/backgrounds/bubble_01_orange.png" alt="bubble-orange-up" id="bubble-orange-up" style="width: 35%;display: none;">
+<img draggable="false" src="img/backgrounds/bubble_02_orange.png" alt="bubble-orange-down" id="bubble-orange-down" style="width: 35%;display: none;">
 <!--blue-->
 
 <!--orange-->
-<img src="img/backgrounds/orange_down.png" alt="orange-down" id="orange-down" style="width: 100%; display:none;">
-<img src="img/backgrounds/orange_down_text_right.png" alt="orange-down-text-right" id="orange-down-text-right" style="width: 100%; display:none;">
-<img src="img/backgrounds/orange_down_text_left.png" alt="orange-down-text-left" id="orange-down-text-left" style="width: 100%; display:none;">
-<img src="img/backgrounds/orange_down_with_plate.png" alt="orange-down-with-plate" id="orange-down-with-plate" style="width: 100%; display:none;">
+<img draggable="false" src="img/backgrounds/orange_down.png" alt="orange-down" id="orange-down" style="width: 100%; display:none;">
+<img draggable="false" src="img/backgrounds/orange_down_text_right.png" alt="orange-down-text-right" id="orange-down-text-right" style="width: 100%; display:none;">
+<img draggable="false" src="img/backgrounds/orange_down_text_left.png" alt="orange-down-text-left" id="orange-down-text-left" style="width: 100%; display:none;">
+<img draggable="false" src="img/backgrounds/orange_down_with_plate.png" alt="orange-down-with-plate" id="orange-down-with-plate" style="width: 100%; display:none;">
 
-<img src="img/backgrounds/orange_up.png" alt="orange-up" id="orange-up" style="width: 100%; display:none;">
+<img draggable="false" src="img/backgrounds/orange_up.png" alt="orange-up" id="orange-up" style="width: 100%; display:none;">
 <!--orange-->
 
 
@@ -89,7 +89,7 @@
         <div class="d-md-flex d-sm-inline-flex justify-content-between flex-wrap" id="header-info ">
             <div class="d-sm-flex d-xl-flex align-items-center logo-block">
                 <div>
-                    <a href="#"><img src="img/logo_v2.png" alt="logo" width="150" height="auto"></a>
+                    <a href="#"><img draggable="false" src="img/logo_v2.png" alt="logo" width="150" height="auto"></a>
                 </div>
                 <div id="info-text">
                     <p>Интернет-агенство<br>комплексного продвижения</p>
@@ -161,37 +161,27 @@
             <div class="menu__item"><a href="#">Вакансии</a></div>
             <div class="menu__item"><a href="#">Контакты</a></div>
         </div>
+
+
     </div>
 </header>
 <!--Header END-->
 
 <!--Services START-->
-<section id="section-services" class="mb-5">
+<section id="section-services" class="mb-5 no-bg">
     <div class="container">
         <div class="services">
             <div class="row my-auto" id="service-head">
                 <div class="col-12 col-md-12 col-lg-6 col-xl-6">
-                    <h1><span class="span-red">Услуги</span> компании</h1>
+                    <h1><span class="span-red">АГЕНСТВО</span> №1</h1>
                 </div>
                 <div class="col-12 col-md-9 col-lg-8 col-xl-4">
                     <p class="section-p-grey my-2">В штате которого более 50 сертифицированных<br>
                         SEO специалистов в Яндекс и Google</p>
                 </div>
-                <div class="col-xl-2 col-lg-4 col-md-3 text-right" id="arrows-services">
-                    <div class="arrow-left d-inline-block mx-2">
-                        <a href="javascript:void(0)">
-                            <i class="fal fa-angle-left"></i>
-                        </a>
-                    </div>
-                    <div class="arrow-right d-inline-block mx-2">
-                        <a href="javascript:void(0)">
-                            <i class="fal fa-angle-right"></i>
-                        </a>
-                    </div>
-                </div>
             </div>
-            <div class="row justify-content-around" id="services-blocks">
-                <div class="service-item">
+            <div class="row justify-content-around" id="services-blocks-no-slider">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 service-item">
                     <div class="card">
                         <div class="row card-head">
                             <div class="col-12 p-0">
@@ -212,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="service-item">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 service-item">
                     <div class="card">
                         <div class="row card-head">
                             <div class="col-12 p-0">
@@ -233,7 +223,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="service-item">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 service-item">
                     <div class="card">
                         <div class="row card-head">
                             <div class="col-12 p-0">
@@ -255,7 +245,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="service-item">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 service-item">
                     <div class="card">
                         <div class="row card-head">
                             <div class="col-12 p-0">
@@ -277,7 +267,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="service-item">
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 service-item">
                     <div class="card">
                         <div class="row card-head">
                             <div class="col-12 p-0">
@@ -299,103 +290,72 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <hr>
-        <div class="ads">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Главная</a></li>
-                    <li class="breadcrumb-item active">Контекстная реклама</li>
-                </ol>
-            </nav>
-            <h1 class="text-left"><span class="span-red">Контекстная</span> реклама</h1>
-            <div class="row justify-content-between ">
-
-                <div class="col-xl-2 col-lg-6 mx-auto">
-                    <span class="big-text counter-js" data-from="0" data-to="20" data-speed="2000" data-refresh-interval="50"></span>
-                    <span class="big-text-black">+</span>
-                    <br>
-                    <p>Рекламных сетей</p>
-                </div>
-                <div class="col-xl-4 col-lg-6 mx-auto">
-                    <span class="big-text counter-js" data-from="0" data-to="2000" data-speed="2500" data-refresh-interval="50"></span>
-                    <span class="big-text-black">+</span>
-                    <br>
-                    <p>Проведеных рекламных компаний</p>
-                </div>
-                <div class="col-xl-3 col-lg-6 mx-auto">
-                    <span class="big-text counter-js" data-from="0" data-to="36" data-speed="1700" data-refresh-interval="50"></span>
-                    <br> Таргетологов в шатате</div>
-                <div class="col-xl-3 col-lg-6 mx-auto">
-                    <span class="big-text counter-js" data-from="0" data-to="12" data-speed="1500" data-refresh-interval="50">20</span>
-                    <span class="big-text-black">лет</span>
-                    <br>Опыта в контекстной рекламе
-                </div>
-            </div>
-
-
-        </div>
-        <hr>
-        <div class="wrap-targeting-ads">
-            <div class="targeting">
-                <div class="row" id="targeting-head">
-                    <div class="col-xl-6">
-                        <h1><span class="span-red">Высокая конверсия таргетированной рекламы</span><br>в короткие сроки</h1>
-                    </div>
-                    <div class="col-xl-6 align-self-lg-end">
-                        <p class="section-p-grey">
-                            Анализируем конверсионность вашего сайта, чтобы сделать ваши<br>
-                            рекламные кампании максимально продающими!
-                        </p>
-
-                    </div>
-                </div>
-                <div class="row" id="targeting-body">
-                    <div class="col-xl-6" id="targeting-img">
-                        <img src="img/macbook.png" alt="macbook">
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="targeting-item">
-                            <img src="img/security.png" alt="security" class="float-left">
-                            <h1><span class="span-red">ГАРАНТИЯ</span></h1>
-                            <h2>Вы платите за результат</h2>
-                            <p>Зачем платить за работу, выполненную наполовину?<br>
-                                И мы так думаем. Ваша рекламная кампания <br>
-                                гарантированно принесет целевых клиентов.</p>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 service-item">
+                    <div class="card">
+                        <div class="row card-head">
+                            <div class="col-12 p-0">
+                                <img src="img/icon-services-4.png" alt="service">
+                            </div>
+                            <div class="col-12 p-0">
+                                <h3>Управление репутацией (SERM)</h3>
+                            </div>
                         </div>
-                        <div class="targeting-item">
-                            <img src="img/like.png" alt="like" class="float-left">
-                            <h1><span class="span-red"> 1 месяц</span></h1>
-                            <h2>Высокие результаты с
-                                первого месяца работы.
-                            </h2>
-                            <p>Улучшение показателей каждый месяц.</p>
+
+                        <div class="card-body">
+                            <p>Берем в работу любое количество запросов - у вас крупный интернет магазин? Тариф от 5000+
+                                запросов вам отлично подойдет.</p>
+                        </div>
+                        <div>
+                            <a href="#" class="btn">
+                                Узнать больше
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="ads-company">
-                <div class="row">
-                    <div class="col-xl-8">
-                        <h1><span class="span-red">При запуске рекламной кампании</span><br>мы учитываем:</h1>
-                        <ul style="">
-                            <li><span class="span-bold">Полный анализ ниши:</span> проводится тщательное исследование <br>
-                                продукта, его ценности для потенциальных клиентов, сегментируется <br>
-                                аудитория и строится прогноз по конверсии.
-                            </li>
-                            <li><span class="span-bold">Опыт предыдущих кампаний:</span> мы тщательно анализируем <br>
-                                опыт предыдущих кампаний клиента для того чтобы со старта <br>
-                                показывать максимальную эффективность.
-                            </li>
-                            <li><span class="span-bold">Качество лендинга:</span> мы внимательно анализируем лендинг <br>
-                                клиента и в случае необходимости вносим предложение по <br>
-                                повышению конверсии.
-                            </li>
-                        </ul>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 service-item">
+                    <div class="card">
+                        <div class="row card-head">
+                            <div class="col-12 p-0">
+                                <img src="img/icon-services-4.png" alt="service">
+                            </div>
+                            <div class="col-12 p-0">
+                                <h3>Управление репутацией (SERM)</h3>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <p>Берем в работу любое количество запросов - у вас крупный интернет магазин? Тариф от 5000+
+                                запросов вам отлично подойдет.</p>
+                        </div>
+                        <div>
+                            <a href="#" class="btn">
+                                Узнать больше
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 service-item">
+                    <div class="card">
+                        <div class="row card-head">
+                            <div class="col-12 p-0">
+                                <img src="img/icon-services-4.png" alt="service">
+                            </div>
+                            <div class="col-12 p-0">
+                                <h3>Управление репутацией (SERM)</h3>
+                            </div>
+                        </div>
 
+                        <div class="card-body">
+                            <p>Берем в работу любое количество запросов - у вас крупный интернет магазин? Тариф от 5000+
+                                запросов вам отлично подойдет.</p>
+                        </div>
+                        <div>
+                            <a href="#" class="btn">
+                                Узнать больше
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -403,16 +363,19 @@
 <!--Services END-->
 
 <!--Contextual START-->
-<section id="contextual">
+<section id="contextual" class="slider-with-dots">
     <div class="bubble-background-top"></div>
     <div class="container">
         <div class="row justify-content-between" id="contextual-head">
             <div class="col-xl-6 col-lg-12 col-md-12 align-self-center">
-                <h1>Контекстная реклама <br> <span class="span-white">это комплекс работ</span></h1>
+                <h1 class="text-white">С помощью чего
+                    мы доведем ваш сайт
+                    до уровня лидера</h1>
             </div>
             <div class="col-xl-4 col-lg-8 col-md-9 align-self-center text-lg-left">
-                <p class="section-contextual-p-white">Контекстная реклама приводит
-                    <br> клиентов здесь и сейчас!</p>
+                <p class="section-contextual-p-white">Поисковое продвижение от ZELO — больше чем SEO.
+                    Это привлечение максимального числа клиентов
+                    из всех источников поиска.</p>
             </div>
 
             <div class="col-xl-2 col-lg-4 col-md-3 text-right" id="arrows-contextual">
@@ -428,87 +391,275 @@
                 </div>
             </div>
         </div>
-        <div class="row" id="contextual-body">
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="box-image-contextual">
-                    <div class="d-flex float-number"><span class="mx-auto align-self-center">1</span></div>
-                    <img src="img/plate_33.png" alt="photo">
-                </div>
-                <h3>Базовый аудит сайта</h3>
-                <p>Если есть ошибки - мы их устраним. Затем мы выбираем стратегию работы в зависимости от типа
-                    сайта.</p>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="box-image-contextual">
-                    <div class="d-flex float-number"><span class="mx-auto align-self-center">2</span></div>
-                    <img src="img/plate_32.png" alt="photo">
-                </div>
-                <h3>Анализ конкурентной ниши и целевой аудитории по системе статистики</h3>
-                <p>Проведем анализ вашего <br>
-                    бизнеса, составим от 10 портретов ваших клиентов, чтобы запустить рекламные кампании под каждый из
-                    них. Правильно настроенный контекст - это получение
-                    прибыли здесь и сейчас.</p>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="box-image-contextual">
-                    <div class="d-flex float-number"><span class="mx-auto align-self-center">3</span></div>
-                    <img src="img/plate_31.png" alt="photo">
-                </div>
-                <h3>Подготовка семантического ядра и написание текстов контекстной рекламы</h3>
-                <p>Для каждого объявления прописываются детальные заголовки, отображаемые ссылки, уточнения.
-                    Производится настройка минус-слов на фразы и кампанию. Проставляются корректирующие коэффициенты на
-                    пол, возраст, устройства показа, производится разработка контекстной
-                    рекламы на регионы.</p>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="box-image-contextual">
-                    <div class="d-flex float-number"><span class="mx-auto align-self-center">3</span></div>
-                    <img src="img/plate_30.png" alt="photo">
-                </div>
-                <h3>Сопровождение контекстной рекламы и мониторинг ее эффективности</h3>
-                <p>Вы платите за каждого привлеченного посетителя, что позволяет сэкономить бюджет и получить прибыль
-                    для вашего бизнеса. А дальнейшая ее оптимизация позволяет снизить стоимость каждого привлеченного
-                    клиента, что позволит увеличить вашу прибыль на 30%
-                    уже через 1 месяц.</p>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="box-image-contextual">
-                    <div class="d-flex float-number"><span class="mx-auto align-self-center">3</span></div>
-                    <img src="img/plate_30.png" alt="photo">
-                </div>
-                <h3>Сопровождение контекстной рекламы и мониторинг ее эффективности</h3>
-                <p>Вы платите за каждого привлеченного посетителя, что позволяет сэкономить бюджет и получить прибыль
-                    для вашего бизнеса. А дальнейшая ее оптимизация позволяет снизить стоимость каждого привлеченного
-                    клиента, что позволит увеличить вашу прибыль на 30%
-                    уже через 1 месяц.</p>
-            </div>
-        </div>
-        <div class="row" id="contextual-out">
-            <div class="col-xl-6 col-lg-12">
-                <img src="img/plate_29.png" alt="img" class="d-block mx-auto">
-            </div>
-            <div class="col-xl-6 col-lg-12">
 
-                <h1><span class="span-white">ЗАКАЗЫВАЙТЕ КОНТЕКСТНУЮ РЕКЛАМУ</span> <br> У СПЕЦИАЛИСТОВ</h1>
-                <p><span class="span-bold">Контекстная реклама</span> - контролируемый поток заявок. Профессиональная
-                    настройка - это половина успеха, а вторая половина зависит полностью от сопровождения. Почему нужно
-                    настраивать рекламные кампании с нами?</p>
-                <ul>
-                    <li>Быстрый вывод на регионы</li>
-                    <li>Быстрый вывод на регионы</li>
-                    <li>Точное попадание в целевую аудиторию</li>
-                    <li>Постоянная аналитика и оптимизация результатов</li>
-                    <li>Быстрое увеличение продаж</li>
-                </ul>
-                <p>Поручите настройку таргетированной рекламы профессионалам уже сейчас. Оставьте заявку или свяжитесь с
-                    нами по контактному телефону, чтобы оформить заказ.</p>
-                <a class="btn contextual-btn">заказать у специалистов</a>
+        <div id="contextual-body-dots">
+
+            <div>
+                <div class="dot-item">
+                    <div class="d-flex float-number"><span class="mx-auto align-self-center">1</span></div>
+                    <p>Полный<br>SEO-Аудит</p>
+                </div>
             </div>
+
+            <div>
+                <div class="dot-item">
+                    <div class="d-flex float-number"><span class="mx-auto align-self-center">2</span></div>
+                    <p>Сбор<br>семантического<br>ядра</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="dot-item">
+                    <div class="d-flex float-number"><span class="mx-auto align-self-center">3</span></div>
+                    <p>Внутрення<br>оптимизация<br>сайта</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="dot-item">
+                    <div class="d-flex float-number"><span class="mx-auto align-self-center">4</span></div>
+                    <p>Внешняя<br>оптимизация<br>сайта</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="dot-item">
+                    <div class="d-flex float-number"><span class="mx-auto align-self-center">5</span></div>
+                    <p>Улучшение<br>сайта</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" id="contextual-body-with-dots">
+
+            <div class="item">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12">
+                        <img draggable="false" src="img/seo-audit.png" alt="img" class="d-block mx-auto">
+                    </div>
+                    <div class="col-xl-6 col-lg-12 content align-self-center">
+
+                        <div class="title">
+                            <p class="m-0 mb-1">Описание этапа работы</p>
+                            <h4>
+                                <span class="span-white">ПОЛНЫЙ</span> SEO-АУДИТ
+                            </h4>
+                        </div>
+
+
+                        <p>
+                            Проводится полный анализ сайта: технический, коммерческий и
+                            юзабилити аудиты. На данном этапе составляется подробный план работ
+                            на основе полученных данных.
+                        </p>
+                        <ul>
+                            <li>Проверка на наличие санкций поисковых систем</li>
+                            <li>Анализ главных конкурентов</li>
+                            <li>Составление стратегии продвижения</li>
+                        </ul>
+
+                        <div class="row no-gutters price-block">
+                            <div class="col-6">
+                                <p class="price">от <span>10 000</span> руб.</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="light-text">
+                                    Отдельная стоимость на <br>
+                                    этот этап работы
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                        <a class="btn contextual-btn">заказать данный этап</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12">
+                        <img draggable="false" src="img/seo-audit-2.png" alt="img" class="d-block mx-auto">
+                    </div>
+                    <div class="col-xl-6 col-lg-12 content align-self-center">
+
+                        <div class="title">
+                            <p class="m-0 mb-1">Описание этапа работы</p>
+                            <h4>
+                                <span class="span-white">ПОЛНЫЙ</span> SEO-АУДИТ
+                            </h4>
+                        </div>
+
+
+                        <p>
+                            Проводится полный анализ сайта: технический, коммерческий и
+                            юзабилити аудиты. На данном этапе составляется подробный план работ
+                            на основе полученных данных.
+                        </p>
+                        <ul>
+                            <li>Проверка на наличие санкций поисковых систем</li>
+                            <li>Анализ главных конкурентов</li>
+                            <li>Составление стратегии продвижения</li>
+                        </ul>
+
+                        <div class="row no-gutters price-block">
+                            <div class="col-6">
+                                <p class="price">от <span>10 000</span> руб.</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="light-text">
+                                    Отдельная стоимость на <br>
+                                    этот этап работы
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                        <a class="btn contextual-btn">заказать данный этап</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12">
+                        <img draggable="false" src="img/seo-audit.png" alt="img" class="d-block mx-auto">
+                    </div>
+                    <div class="col-xl-6 col-lg-12 content align-self-center">
+
+                        <div class="title">
+                            <p class="m-0 mb-1">Описание этапа работы</p>
+                            <h4>
+                                <span class="span-white">ПОЛНЫЙ</span> SEO-АУДИТ
+                            </h4>
+                        </div>
+
+
+                        <p>
+                            Проводится полный анализ сайта: технический, коммерческий и
+                            юзабилити аудиты. На данном этапе составляется подробный план работ
+                            на основе полученных данных.
+                        </p>
+                        <ul>
+                            <li>Проверка на наличие санкций поисковых систем</li>
+                            <li>Анализ главных конкурентов</li>
+                            <li>Составление стратегии продвижения</li>
+                        </ul>
+
+                        <div class="row no-gutters price-block">
+                            <div class="col-6">
+                                <p class="price">от <span>10 000</span> руб.</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="light-text">
+                                    Отдельная стоимость на <br>
+                                    этот этап работы
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                        <a class="btn contextual-btn">заказать данный этап</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12">
+                        <img draggable="false" src="img/seo-audit.png" alt="img" class="d-block mx-auto">
+                    </div>
+                    <div class="col-xl-6 col-lg-12 content align-self-center">
+
+                        <div class="title">
+                            <p class="m-0 mb-1">Описание этапа работы</p>
+                            <h4>
+                                <span class="span-white">ПОЛНЫЙ</span> SEO-АУДИТ
+                            </h4>
+                        </div>
+
+
+                        <p>
+                            Проводится полный анализ сайта: технический, коммерческий и
+                            юзабилити аудиты. На данном этапе составляется подробный план работ
+                            на основе полученных данных.
+                        </p>
+                        <ul>
+                            <li>Проверка на наличие санкций поисковых систем</li>
+                            <li>Анализ главных конкурентов</li>
+                            <li>Составление стратегии продвижения</li>
+                        </ul>
+
+                        <div class="row no-gutters price-block">
+                            <div class="col-6">
+                                <p class="price">от <span>10 000</span> руб.</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="light-text">
+                                    Отдельная стоимость на <br>
+                                    этот этап работы
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                        <a class="btn contextual-btn">заказать данный этап</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12">
+                        <img draggable="false" src="img/seo-audit.png" alt="img" class="d-block mx-auto">
+                    </div>
+                    <div class="col-xl-6 col-lg-12 content align-self-center">
+
+                        <div class="title">
+                            <p class="m-0 mb-1">Описание этапа работы</p>
+                            <h4>
+                                <span class="span-white">ПОЛНЫЙ</span> SEO-АУДИТ
+                            </h4>
+                        </div>
+
+
+                        <p>
+                            Проводится полный анализ сайта: технический, коммерческий и
+                            юзабилити аудиты. На данном этапе составляется подробный план работ
+                            на основе полученных данных.
+                        </p>
+                        <ul>
+                            <li>Проверка на наличие санкций поисковых систем</li>
+                            <li>Анализ главных конкурентов</li>
+                            <li>Составление стратегии продвижения</li>
+                        </ul>
+
+                        <div class="row no-gutters price-block">
+                            <div class="col-6">
+                                <p class="price">от <span>10 000</span> руб.</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="light-text">
+                                    Отдельная стоимость на <br>
+                                    этот этап работы
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                        <a class="btn contextual-btn">заказать данный этап</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <div class="bubble-background-down"></div>
 </section>
 <!--Contextual END-->
+
 
 <!--ContactForm START-->
 <section id="contact-form">
@@ -652,7 +803,7 @@
                 <div class="card">
                     <div class="row card-head">
                         <div class="col-2 col-xl-2 align-self-center" >
-                            <img src="img/icon_8.png" alt="icon">
+                            <img draggable="false" src="img/icon_8.png" alt="icon">
                         </div>
                         <div class="col-10 col-xl-10 align-self-center">
                             <p class="tariff-card-title">Тариф</p>
@@ -689,7 +840,7 @@
                 <div class="card">
                     <div class="row card-head">
                         <div class="col-2 col-xl-2 align-self-center" >
-                            <img src="img/icon_7.png" alt="icon">
+                            <img draggable="false" src="img/icon_7.png" alt="icon">
                         </div>
                         <div class="col-10 col-xl-10 align-self-center">
                             <p class="tariff-card-title">Тариф</p>
@@ -727,7 +878,7 @@
                 <div class="card">
                     <div class="row card-head">
                         <div class="col-2 col-xl-2 align-self-center" >
-                            <img src="img/icon_6.png" alt="icon">
+                            <img draggable="false" src="img/icon_6.png" alt="icon">
                         </div>
                         <div class="col-10 col-xl-10 align-self-center">
                             <p class="tariff-card-title">Тариф</p>
@@ -763,7 +914,7 @@
                 <div class="card">
                     <div class="row card-head">
                         <div class="col-2 col-xl-2 align-self-center" >
-                            <img src="img/icon_6.png" alt="icon">
+                            <img draggable="false" src="img/icon_6.png" alt="icon">
                         </div>
                         <div class="col-10 col-xl-10 align-self-center">
                             <p class="tariff-card-title">Тариф</p>
@@ -808,43 +959,159 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-6 px-4">
-                <div class="motivation-block">
-                    <h1><span class="span-white">Привлекай</span> <br>
-                        больше клиентов</h1>
+                <h4><span class="span-white">Привлекай</span> <br>
+                    больше клиентов</h4>
+                <p>
+                    Продвижение сайта в поисковых системах от ZELO — привлечение
+                    пользователей, которые ищут информацию о компании,
+                    товарах и услугах:
+                </p>
+                <div class="body">
                     <ul class="list-unstyled">
-
-                        <li>Мы имеем полное представление о <span class="span-orange-dark">ВЕДЕНИИ БИЗНЕСА В<br>
-                            ИНТЕРНЕТЕ</span> и знаем как получить <span class="span-orange">МАКСИМАЛЬНОЕ</span>
-                            КОЛИЧЕСТВО клиентов с каждой рекламной кампании</li>
-                        <li>Мы проанализируем <span class="span-orange">ВАШ БИЗНЕС</span> и точно попадем <br>
-                            в целевую аудиторию <span class="span-orange">РАБОТАЕМ НА РЕЗУЛЬТАТ</span></li>
+                        <li>В поисковых системах (Яндекс, Google, Mail.ru и другие),<br>
+                            включая мобильную выдачу, в России и за рубежом.</li>
+                        <li>В геолокационных сервисах, справочниках, массовых
+                            сервисах (2Gis, YouTube, Яндекс.Карты, Google Карты и т. д.)</li>
                     </ul>
-                </div>
-                <div class="motivation-block">
-                    <h1><span class="span-white">СОЗДАННАЯ НАМИ АРГЕТИРОВАННАЯ РЕКЛАМА</span> <br> УВЕЛИЧИТ ВАШИ ПРОДАЖИ ЗА 1 МЕСЯЦ</h1>
-                    <ul class="list-unstyled">
+                    <div class="image-box">
+                        <img src="img/logos/avito.png" alt="avito" class="d-inline" draggable="false"/>
+                        <img src="img/logos/yandex.png" alt="yandex" class="d-inline" draggable="false"/>
+                        <img src="img/logos/youtube.png" alt="youtube" class="d-inline" draggable="false"/>
+                        <img src="img/logos/mail.ru.png" alt="mail.ru" class="d-inline" draggable="false"/>
+                        <img src="img/logos/aliexpress.png" alt="aliexpress" class="d-inline" draggable="false"/>
+                    </div>
 
-                        <li>За счет правильного <span class="span-orange">АУДИТА</span> и <span class="span-orange">ОПТИМИЗАЦИИ</span>. <br>
-                            Мы знаем, какой должна быть реклама вашего сайта!</li>
-
-                    </ul>
+                    <blockquote>
+                        Мы знаем, как продвинуть сайт в интернете<br>
+                        быстрее и получить максимальный<br>
+                        охват аудитории
+                    </blockquote>
                 </div>
             </div>
             <div class="col-xl-6 px-4">
-                <div class="advantages ">
-                    <h1><span class="span-white">ЧТО ТАКОЕ</span> <br>
-                        СОВРЕМЕННЫЙ ТАРГЕТ?</h1>
-                    <ul class="list-unstyled">
-                        <li><p>Точность попадания в целевую аудиторию</p></li>
-                        <li><p>Низкая стоимость привлечения клиентов</p></li>
-                        <li><p>Дополнительная коммуникация с клиентом</p></li>
-                        <li><p>Максимизирование доходов при<br>
-                            ограниченном бюджете</p></li>
-                    </ul>
-                    <p>Закажите бесплатный аудит вашей рекламной кампании и узнайте,<br> почему ваша рекламная кампания малоэффективна.</p>
-                    <a href="#" class="btn btn-download-example">СКАЧАТЬ ПРИМЕР АУДИТА</a>
-                </div>
+                <h4><span class="span-white">Оцени</span> <br>
+                    Преимущества</h4>
 
+                <div class="accordion" id="previlege-accordion">
+                    <div class="card">
+                        <div class="card-header" id="heading-previlege-first">
+                            <a href="javascript:void(0)" class="btn text-left" data-toggle="collapse" data-target="#collapse-previlege-first" aria-expanded="false" aria-controls="collapse-previlege-first">
+                                <div class="d-inline-flex float-number">
+                                    <span class="mx-auto align-self-center">1</span>
+                                </div>
+                                <span>
+                                        Знаем о продвижении всё
+                                    </span>
+                            </a>
+                        </div>
+
+                        <div id="collapse-previlege-first" class="collapse show" aria-labelledby="heading-previlege-first" data-parent="#previlege-accordion">
+                            <div class="card-body">
+                                <p>
+                                    Занимаемся поисковым продвижением сайтов с 2000 года, <br>
+                                    обладаем фундаментальной экспертизой, знаем все подводные <br>
+                                    камни в данной области.
+                                </p>
+                                <div class="row row-cols-2">
+                                    <div class="col">
+                                        <div class="number-big">
+                                            700<span>+</span>
+                                        </div>
+                                        специалистов компании <br>
+                                        постоянно совершенствуют <br>
+                                        свои навыки
+                                    </div>
+                                    <div class="col">
+                                        <div class="number-big">
+                                            7000<span>+</span>
+                                        </div>
+                                        успешных проектов, среди <br>
+                                        которых ведущие российские <br>
+                                        и мировые бренды.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading-previlege-second">
+                            <a href="javascript:void(0)" class="btn text-left collapsed" data-toggle="collapse" data-target="#collapse-previlege-second" aria-expanded="false" aria-controls="collapse-previlege-second">
+                                <div class="d-inline-flex float-number">
+                                    <span class="mx-auto align-self-center">2</span>
+                                </div>
+                                <span>
+                                        Применяем уникальные технологии
+                                    </span>
+                            </a>
+                        </div>
+                        <div id="collapse-previlege-second" class="collapse" aria-labelledby="heading-previlege-second" data-parent="#previlege-accordion">
+                            <div class="card-body">
+                                <p>
+                                    Занимаемся поисковым продвижением сайтов с 2000 года, <br>
+                                    обладаем фундаментальной экспертизой, знаем все подводные <br>
+                                    камни в данной области.
+                                </p>
+                                <div class="row row-cols-2">
+                                    <div class="col">
+                                        <div class="number-big">
+                                            700<span>+</span>
+                                        </div>
+                                        специалистов компании <br>
+                                        постоянно совершенствуют <br>
+                                        свои навыки
+                                    </div>
+                                    <div class="col">
+                                        <div class="number-big">
+                                            7000<span>+</span>
+                                        </div>
+                                        успешных проектов, среди <br>
+                                        которых ведущие российские <br>
+                                        и мировые бренды.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading-previlege-third">
+                            <a href="javascript:void(0)" class="btn text-left collapsed" data-toggle="collapse" data-target="#collapse-previlege-third" aria-expanded="false" aria-controls="collapse-previlege-third">
+                                <div class="d-inline-flex float-number">
+                                    <span class="mx-auto align-self-center">3</span>
+                                </div>
+                                <span>
+                                        Обеспечиваем достижение целей быстрее
+                                    </span>
+                            </a>
+                        </div>
+                        <div id="collapse-previlege-third" class="collapse" aria-labelledby="heading-previlege-third" data-parent="#previlege-accordion">
+                            <div class="card-body">
+                                <p>
+                                    Занимаемся поисковым продвижением сайтов с 2000 года, <br>
+                                    обладаем фундаментальной экспертизой, знаем все подводные <br>
+                                    камни в данной области.
+                                </p>
+                                <div class="row row-cols-2">
+                                    <div class="col">
+                                        <div class="number-big">
+                                            700<span>+</span>
+                                        </div>
+                                        специалистов компании <br>
+                                        постоянно совершенствуют <br>
+                                        свои навыки
+                                    </div>
+                                    <div class="col">
+                                        <div class="number-big">
+                                            7000<span>+</span>
+                                        </div>
+                                        успешных проектов, среди <br>
+                                        которых ведущие российские <br>
+                                        и мировые бренды.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -881,7 +1148,7 @@
 
             <div>
                 <div class="card text-white">
-                    <img src="img/plate_13.png" class="card-img" alt="img_1">
+                    <img draggable="false" src="img/plate_13.png" class="card-img" alt="img_1">
                     <div class="card-img-overlay">
                         <h3 class="card-title">Название проекта</h3>
                         <p class="card-text">Увеличили конверсию в 2 раза</p>
@@ -892,7 +1159,7 @@
 
             <div>
                 <div class="card text-white">
-                    <img src="img/plate_12.png" class="card-img" alt="img_2">
+                    <img draggable="false" src="img/plate_12.png" class="card-img" alt="img_2">
                     <div class="card-img-overlay">
                         <h3 class="card-title">Название проекта</h3>
                         <p class="card-text">Увеличили конверсию в 2 раза</p>
@@ -903,7 +1170,7 @@
 
             <div>
                 <div class="card text-white">
-                    <img src="img/plate_13.png" class="card-img" alt="img_1">
+                    <img draggable="false" src="img/plate_13.png" class="card-img" alt="img_1">
                     <div class="card-img-overlay">
                         <h3 class="card-title">Название проекта</h3>
                         <p class="card-text">Увеличили конверсию в 2 раза</p>
@@ -914,7 +1181,7 @@
 
             <div>
                 <div class="card text-white">
-                    <img src="img/plate_12.png" class="card-img" alt="img_2">
+                    <img draggable="false" src="img/plate_12.png" class="card-img" alt="img_2">
                     <div class="card-img-overlay">
                         <h3 class="card-title">Название проекта</h3>
                         <p class="card-text">Увеличили конверсию в 2 раза</p>
@@ -925,7 +1192,7 @@
 
             <div>
                 <div class="card text-white">
-                    <img src="img/plate_13.png" class="card-img" alt="img_1">
+                    <img draggable="false" src="img/plate_13.png" class="card-img" alt="img_1">
                     <div class="card-img-overlay">
                         <h3 class="card-title">Название проекта</h3>
                         <p class="card-text">Увеличили конверсию в 2 раза</p>
@@ -936,7 +1203,7 @@
 
             <div>
                 <div class="card text-white">
-                    <img src="img/plate_12.png" class="card-img" alt="img_2">
+                    <img draggable="false" src="img/plate_12.png" class="card-img" alt="img_2">
                     <div class="card-img-overlay">
                         <h3 class="card-title">Название проекта</h3>
                         <p class="card-text">Увеличили конверсию в 2 раза</p>
@@ -1017,7 +1284,7 @@
                         <div class="col-xl-6 box-review my-auto">
                             <div class="row mb-1">
                                 <div class="col-2 col-xl-2">
-                                    <img src="img/reviews-photo.png" alt="reviews-photo">
+                                    <img draggable="false" src="img/reviews-photo.png" alt="reviews-photo">
                                 </div>
                                 <div class="col-10 col-xl-10">
                                     <h3 class="rv-name">Андрей Минский</h3>
@@ -1054,7 +1321,7 @@
                         <div class="col-xl-6 box-review my-auto">
                             <div class="row mb-1">
                                 <div class="col-2 col-xl-2">
-                                    <img src="img/reviews-photo.png" alt="reviews-photo">
+                                    <img draggable="false" src="img/reviews-photo.png" alt="reviews-photo">
                                 </div>
                                 <div class="col-10 col-xl-10">
                                     <h3 class="rv-name">Андрей Минский</h3>
@@ -1091,7 +1358,7 @@
                         <div class="col-xl-6 box-review my-auto">
                             <div class="row mb-1">
                                 <div class="col-2 col-xl-2">
-                                    <img src="img/reviews-photo.png" alt="reviews-photo">
+                                    <img draggable="false" src="img/reviews-photo.png" alt="reviews-photo">
                                 </div>
                                 <div class="col-10 col-xl-10">
                                     <h3 class="rv-name">Андрей Минский</h3>
@@ -1281,7 +1548,7 @@
     <div class="container">
         <div class="row ">
             <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-md-left text-sm-center">
-                <img src="img/logo_v2.png" alt="logo" width="150">
+                <img draggable="false" src="img/logo_v2.png" alt="logo" width="150">
                 <p class="footer-p">© 2020 Интернет-агенство комплексного продвижения</p>
 
             </div>
