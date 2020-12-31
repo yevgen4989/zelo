@@ -173,6 +173,9 @@
     border: 3px #FF6E00 solid;
 }
 
+#section-text .accordion .card .card-header a > span{
+    border-bottom: 1px #fff dashed;
+}
 
 
 .motivation-block {

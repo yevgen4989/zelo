@@ -223,11 +223,6 @@ $('#contextual #arrows-contextual .arrow-right a').click(function () {
 
 /* Contextual Slider */
 
-// $('#contextual-body-dots').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-//
-//
-// });
-
 $('#contextual-body-dots').slick({
     slidesToShow: 5,
     slidesToScroll: 1,
@@ -278,8 +273,6 @@ $('#contextual-body-dots').slick({
         }
     ]
 });
-
-
 
 $('#contextual-body-with-dots').slick({
     infinite: true,
